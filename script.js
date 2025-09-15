@@ -13,4 +13,6 @@ function mostraPalavrasChave() {
     palavras = tiraPalavrasRuins(palavras);
 
     const frequencias = contaFrequencias(palavras);
+    function ordenaPalavra(p1, p2) {
+        ret
 } 
