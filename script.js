@@ -20,7 +20,6 @@ function processaTexto(texto) {
     palavras = tiraPalavrasRuins(palavras);
 
     const frequencias = contaFrequencias(palavras);
-    .
 
     function mostraPalavrasChave() { 
   let palavras = texto.split(/\P{L}+/u);
