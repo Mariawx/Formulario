@@ -9,6 +9,7 @@ function mostraPalavrasChave() {
 
     campoResultado.textContent = palavrasChave.join(", ");
 }
+
 function processaTexto(texto) {
     let palavras = texto.split(/\P{L}+/u);
 
@@ -20,7 +21,8 @@ function processaTexto(texto) {
 
     const frequencias = contaFrequencias(palavras);
     .
-function mostraPalavrasChave() { 
+
+    function mostraPalavrasChave() { 
   let palavras = texto.split(/\P{L}+/u);
 
     for (let i in palavras) {
@@ -30,6 +32,7 @@ function mostraPalavrasChave() {
     palavras = tiraPalavrasRuins(palavras);
 
     const frequencias = contaFrequencias(palavras);
+    
     function ordenaPalavra(p1, p2) {
         ret
 } 
